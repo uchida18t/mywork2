@@ -1,0 +1,966 @@
+/* break point 0 */
+
+@media(max-width: 1230px) {
+    .top {
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        /* initial */
+    }
+}
+
+/* break point 1 */
+
+@media(max-width: 1190px) {
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .p-1 {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+/* 1 header */
+    .header-content>.contact {
+        height: 41px;
+        line-height: 41px;
+        font-size: .75rem;
+        letter-spacing: initial;
+        padding: 0 40px;
+        position: relative;
+        top: 16px;
+        right: 0;
+    }
+
+/* 2 top */
+    .top-content {
+        padding-top: 180px;
+    }
+
+    .h1-1 {
+        font-size: 24px;
+        letter-spacing: 1.5px;
+    }
+
+    .p-2 {
+        font-size: 16px;
+    }
+
+/* 3 yellow */
+    .yellow {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .yellow>.p-2:nth-of-type(1), .yellow>.p-2:nth-of-type(2) {
+        padding-bottom: 0px;
+    }
+
+    .yellow>.p-2:nth-of-type(3) {
+        font-size: 14px;
+        letter-spacing: .5px;
+        margin: 14px 0;
+    }
+
+    .yellow>.contact {
+        margin: 0 auto 10px;
+        font-size: 18px;
+        letter-spacing: .09em;
+        font-weight: bold;
+        padding: 25px 0;
+    }
+
+/* 4 free */
+    .free {
+        padding-bottom: 174px;
+    }
+
+/* 5 about */
+    .skills {
+        margin: 0;
+    }
+
+    .about>.p-2, .skills>.p-2 {
+        opacity: .75;
+    }
+
+/* 6 dontteach */
+    .dontteach>.container {
+        width: 38%;
+    }
+
+    .step {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .p-3 {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+/* 7 blue */
+
+/* 8 ability */
+    .ability>.container {
+        margin: 60px auto;
+        width: 100%;
+    }
+
+    .ability>.container>img {
+        width: 22%;
+    }
+
+/* 9 merit-support */
+    .merit-support {
+        padding-bottom: 40px;
+    }
+
+    .merit-support>.container {
+        width: 90%;
+    }
+
+    .merit>img {
+        width: 300px;
+    }
+
+    .merit>.p-2 {
+        text-align: center;
+    }
+
+    .merit.p-3 {
+        width: 100%;
+    }
+
+    .support {
+        margin: 40px auto;
+    }
+
+/* 10 members */
+
+/* 11 qanda */
+    .qanda>.heading>.h1-1 {
+        font-size: 18px;
+        line-height: 2.3em;
+    }
+
+/* 12 employers */
+    .employers {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .employers>.p-3 {
+        opacity: .7;
+    }
+
+    .employers>.container {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    
+    .employers>.container>img {
+        width: 20%;
+        border: 3px solid #ebb94d;
+    }
+
+/* 13 curriculums */
+    .curriculums>.container {
+        width: 550px;
+    }
+
+    .curriculum {
+        width: 48%;
+        border-radius: 5px;
+    }
+
+/* 14 blue */
+
+/* 15 process */
+    .process {
+        padding: 45px 60px 20px;
+    }
+
+    .process>img:first-of-type {
+        width: 100%;
+    }
+
+    .process>.container {
+        justify-content: left;
+    }
+
+    .flow {
+        width: 160px;
+    }
+
+    .flow-description {
+        padding-left: 20px;
+        width: calc(100% - 160px);
+    }
+
+    .flow-description>.p-3 {
+        font-size: 15px;
+    }
+
+    .flowline {
+        width: calc((100% - 160px) * .93);
+    }
+
+/* 16 bangkok */
+    .bangkok {
+        padding: 60px 0 50px 60px;
+    }
+
+/* 17 gifts */
+    .gifts {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .gift-notice {
+        width: 400px;
+    }
+
+    .gifts>.container {
+        justify-content: space-between;
+        padding: 50px 60px;
+    }
+
+    .gift {
+        margin: 10px 5px;
+    }
+
+    .gift-content>.p-1 {
+        font-size: 14px;
+        font-weight: bolder;
+        letter-spacing: 1.5px;
+        opacity: .7;
+    }
+
+/* 18 notvolunteer */
+    .notvolunteer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+/* 19 founder */
+    .founder>.p-2 {
+        margin: 34px 0 60px;
+    }
+
+    .founder>.container {
+        max-width: 1020px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .founder>.container>img {
+        width: 22%;
+    }
+
+    .founder-message>.p-1 {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+    .founder-message>br {
+        line-height: 0px;
+    }
+
+/* 20 contact-form */
+    #contact-form>input, #contact-form>textarea {
+        width: 70%;
+    }
+
+    #contact-form>.contact {
+        width: 71%;
+    }
+
+/* 21 help */
+    .help {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .a-help {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .help-dt>.p-2 {
+        letter-spacing: 1.5px;
+    }
+
+    .help-dt>.p-2::before {
+        font-size: 14px;
+    }
+    
+    .help-dt>.p-2::after {
+        font-size: 23px;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+    }
+
+    .help-dd>.p-4 {
+        font-size: 14px;
+        opacity: .8;
+    }
+}
+
+/* break point 2 */
+
+@media(max-width: 991px) {
+/* 9 merit-support */
+    .merit-support {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .merit-support>.container {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .merit {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .merit>.p-3 {
+        text-align: left;
+    }
+
+/* 10 members */
+    .members {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .members>.flex-parent>.container {
+        justify-content: center;
+    }
+
+    .member {
+        width: 100%;
+    }
+
+    .member-profile .p-3 {
+        opacity: .9;
+    }
+
+/* 12 employers */
+    .employers {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .employers>.container {
+        justify-content: space-between;
+    }
+
+    .employers>.container>img {
+        width: 31.5%;
+    }
+
+    .employer-message {
+        width: 68.5%;
+        margin: 0;
+        padding: 15px 0 0 30px;
+        text-align: left;
+    }
+
+/* 13 curriculums */
+    .curriculums>.container {
+        padding-bottom: 60px;
+        width: 610px;
+        justify-content: center;
+    }
+    
+    .curriculum {
+        width: 100%;
+        height: auto;
+        background: #016ea9;
+        border-radius: 3px;
+        padding-bottom: 2px;
+        margin-bottom: 15px;
+    }
+
+    .curriculum>.p-2 {
+        opacity: .95;
+    }
+
+    .curriculum>.p-3 {
+        width: 99.2%;
+    }
+
+/* 17 gifts */
+    .gifts>.container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+/* 19 founder */
+    .founder {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .founder>.container>img {
+        width: 100%;
+    }
+
+    .founder-message {
+        /* box-sizing: border-box; */
+        width: 100%;
+        text-align: left;
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+}
+
+/* break point 3 */
+
+@media(max-width: 768px) {
+    section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+/* 1 header */
+    header {
+        height: 62px;
+    }
+
+    .header-content {
+        max-width: 1190px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .header-content>.contact {
+        display: none;
+    }
+    
+    .header-left {
+        height: 62px;
+        width: 200px;
+    }
+    
+    .p-1 {
+        font-size: 10px;
+    }
+    
+    .header-left>.p-1 {
+        color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 9px;
+        left: 10px;
+    }
+
+    .header-logo {
+        width: 90px;
+        top: 25px;
+        margin-left: 10px;
+    }
+
+    .phone-contact {
+        display: block;
+    }
+
+/* 2 top */
+    .top {
+        height: 372px;
+        background-image: url(images/background/mainsp.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .top-content {
+        padding-top: 82px;
+    }
+    
+    .h1-1 {
+        font-size: 18px;
+    }
+
+    .top-content>.h1-1 {
+        margin-bottom: 1px;
+    }
+
+    .top-logo {
+        margin-top: 19px;
+        margin-bottom: 34px;
+    }
+
+    .p-2 {
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+    
+    .top-content>.p-2 {
+        line-height: 1.1em;
+        opacity: .8;
+    }
+
+    .to-top {
+        width: 46px;
+        height: 52px;
+        bottom: 20px;
+        right: 10px;
+    }
+    
+    .to-top>i {
+        line-height: 52px;
+        font-size: 21px;
+    }
+
+/* 3 yellow */
+    .yellow {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .yellow>.contact {
+        margin: 0 auto 10px;
+        font-size: 20px;
+        letter-spacing: .5px;
+        padding: 17px 0;
+    }
+
+    .yellow>.contact>span {
+        display: block;
+    }
+
+    .yellow>.p-2:nth-child(n+4) {
+        letter-spacing: 0px;
+        padding: 15px 0;
+    }
+
+    .yellow>.p-2:nth-child(n+4)>span {
+        display: block;
+    }
+
+/* 4 free */
+    .free {
+        padding-bottom: 85px;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .heading::before, .heading::after {
+        height: 25px;
+        width: 25px;
+    }
+
+    .free>.heading {
+        line-height: 2.2em;
+        margin: 65px auto 45px;
+    }
+
+    .free>.p-2 {
+        letter-spacing: 0px;
+        opacity: .8;
+        line-height: 1.6em;
+    }
+
+    .phone-span {
+        display: block;
+    }
+
+    .phone-br {
+        display: block;
+    }
+
+/* 5 about */
+    .circle {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        line-height: 60px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .about>.circle {
+        top: -30px;
+    }
+
+    .skills {
+        padding: 10px 0;
+    }
+
+    .skill {
+        margin: 16px 8px;
+    }
+
+    .skill>img {
+        height: 30px;
+    }
+    
+    .skill>p {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+/* 6 dontteach */
+    .dontteach {
+        background: url(images/background/aboutsecondbgsp.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 50px 0 25px;
+    }
+
+    .dontteach>.h1-1 {
+        line-height: 20px;
+    }
+
+    .dontteach>.p-2:nth-of-type(1), .dontteach>.p-2:nth-of-type(2) {
+        font-size: 13px;
+        font-weight: normal;
+        letter-spacing: 0px;
+    }
+
+    .dontteach>.container {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .step {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .p-3 {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .step>p:nth-of-type(1) {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .step>p:nth-of-type(2) {
+        font-size: 12px;
+    }
+
+    .step>p:nth-of-type(3) {
+        margin: 5px 0 15px;
+    }
+
+/* 7 blue */
+    .blue {
+        padding: 20px 0;
+    }
+
+    .phone-blue-p {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+/* 8 ability */
+    .ability {
+        padding: 40px 40px 35px;
+    }
+
+    .ability>.p-2 {
+        margin-bottom: 0;
+    }
+
+    .ability>.container {
+        margin: 20px auto;
+        max-width: 600px;
+        justify-content: center;
+    }
+    
+    .ability>.container>img {
+        width: 105px;
+        margin: 0 5px;
+    }
+
+/* 9 merit-support */
+    .merit-support {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .merit>img {
+        width: 100%;
+        height: 120px;
+    }
+
+    .merit>.p-3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .support>.p-3 {
+        letter-spacing: .5px;
+        font-size: 10px;
+    }
+
+    .merit-support>.p-1 {
+        font-size: 12px;
+    }
+
+    .pc-span {
+        display: inline;
+    }
+
+/* 10 members */
+    .members {
+        background: url(images/background/teacherbgsp.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 80px 0 20px;
+    }
+
+    .members>.flex-parent>.container {
+        margin: 0 10px;
+    }
+
+    .member>img {
+        height: 120px;
+        top: 40px;
+    }
+
+    .member-profile {
+        border: 3px solid #fff;
+        padding: 40px 10px 20px;
+    }
+
+/* 11 qanda */
+    .qanda>.heading>.h1-1 {
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+/* 12 employers */
+    .employers {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .employers>.container>img {
+        width: 28%;
+        border: 3px solid #ebb94d;
+        object-fit: cover;
+    }
+
+    .employer-message {
+        width: 71%;
+        padding: 0 5px;
+        text-align: left;
+    }
+
+/* 13 curriculums */
+    .curriculums {
+        background: url(images/background/classbgsp.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .curriculums>.container {
+        padding-bottom: 25px;
+        width: 100%;
+        justify-content: center;
+    }
+
+/* 14 blue */
+/* 15 process */
+    .process {
+        padding: 45px 15px 55px;
+    }
+
+    .fa-laptop {
+        top: 0px;
+        font-size: 14px;
+    }
+
+    .process>.h1-1 {
+        margin-bottom: 35px;
+    }
+
+    .process>img {
+        display: none;
+    }
+
+    .process>.container {
+        display: none;
+    }
+
+    .phone-processes {
+        display: block;
+    }
+
+/* 16 bangkok */
+    .bangkok {
+        padding: 40px 30px 30px;
+        background: url(images/background/bangkokbgsp.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bangkok-description>.h1-4 {
+        text-align: center;
+    }
+
+    .bangkok-description>.p-1 {
+        font-size: 12px;
+        opacity: .85;
+        font-weight: normal;
+    }
+
+/* 17 gifts */
+    .gifts {
+        background: #f7c23c;
+        padding: 30px 15px 20px;
+    }
+
+    .gifts>.p-3 {
+        padding: 25px 0;
+    }
+
+    .gift-notice {
+        width: 240px;
+        padding: 0 10px;
+    }
+
+    .gifts>.container {
+        justify-content: center;
+        flex-flow: row wrap;
+        padding-left: 0px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .gift {
+        width: 60px;
+        height: 60px;
+        background: #fff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    .gift-content {
+        width: 100%;
+    }
+
+    .gift-content>.h1-4 {
+        line-height: 60px;
+        font-size: 12px;
+        margin: 0px;
+        letter-spacing: .5px;
+    }
+
+    .gift-content>.p-1 {
+        display: none;
+    }
+    
+    .phone-gift-p {
+        color: #fff;
+        display: block;
+        width: calc(100% - 110px);
+        text-align: left;
+    }
+
+/* 18 notvolunteer */
+    .notvolunteer {
+        background: url(images/background/specialdetailsp.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 40px 30px 60px;
+    }
+
+    .notvolunteer>.p-2  {
+        font-size: 12px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        line-height: 1.65em;
+    }
+
+    .notvolunteer>.heading {
+        line-height: 40px;
+    }
+
+/* 19 founder */
+    .founder {
+        padding: 50px 15px;
+    }
+
+    .founder>.p-2 {
+        margin-bottom: 20px;
+    }
+
+/* 20 contact-form */
+    #contact-form {
+        padding: 50px 15px;
+    }
+
+    #contact-form>input, #contact-form>textarea, #contact-form>.contact {
+        width: 100%;
+    }
+
+/* 21 help */
+    .help {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .help-dt {
+        padding-top: 6.5px;
+        padding-left: 10px;
+        padding-bottom: 6.5px;
+    }
+
+    .help-dt>.p-2::before {
+        font-size: 13px;
+    }
+    
+    .help-dt>.p-2::after {
+        font-size: 22px;
+        top: 7px;
+        right: 12px;
+    }
+
+    .help-dd>.p-4 {
+        font-size: 12px;
+        opacity: .75;
+    }
+
+/* 22 footer */
+    footer {
+        padding: 20px 0 5px;
+    }
+}
+
+/* break point 4 */
+@media(max-width: 479px) {
+    /* 2 top */
+    .top-logo {
+        width: 70%;
+    }
+
+/* 12 employers */
+    .i-1 {
+        font-size: 14px;
+    }
+
+    .employer-name {
+        font-size: 12px;
+    }
+}
