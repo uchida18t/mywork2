@@ -685,6 +685,7 @@
     
     .ability>.container>img {
         width: 105px;
+        height: 105px;
         margin: 0 5px;
     }
 
