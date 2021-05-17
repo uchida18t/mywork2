@@ -24,6 +24,7 @@ section, footer {
 }
 
 .container {
+    display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
 }
